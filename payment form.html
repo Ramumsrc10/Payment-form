@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment gateway</title>
+    <link rel="stylesheet" href="1style.css">
+</head>
+<body bgcolor="black">
+    <div class="container">
+    <form action="">
+       <center><h1>Payment Form</h1><hr></center>
+        <h2>User information</h2>
+        <p>Name:<input type="text" name="name" id="name" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+         <p>Male <input type="radio" name="gender" id="gender" required>Female<input type="radio" name="gender" id="gender"></p>
+         </fieldset>
+        <p>Address: <textarea name="address" id="address" cols="30" rows="10"></textarea></p>
+    <p>Email:<input type="email" name="email" id="email" required></p>
+    <p>Pincode: <input type="number" name="pincode" id="pincode" required></p>
+    <h2>Payment information</h2>
+     <p>Accepted Cards</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa.svg/1200px-Visa.svg.png" alt="" srcset="" height="25" width="50">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/2560px-MasterCard_Logo.svg.png" alt="" srcset="" height="25" width="50">
+    <img src="https://aniportalimages.s3.amazonaws.com/media/details/RuPay_1_Yy7eCPM.jpg" alt="" srcset="" height="25" width="50">
+    <p>Card type:
+        <select name="card_type" id="card_type" required>
+        <option value="">--select card type--></option>
+        <option value="visa">Visa</option>
+        <option value="master card">Master card</option>
+        <option value="rupay">Rupay</option>
+        </select></p>
+        <p>Card number: <input type="number" name="card number" id="card number" required></p>
+        <p>Expiry Date: <input type="date" name="expiry date" id="expiry date" required></p>
+        <p>CVV: <input type="password" name="cvv" id="cvv" required></p>
+        <p><input type="submit" value="Pay Now"></p>
+        
+
+    </form>
+</div>
+</body>
+</html>

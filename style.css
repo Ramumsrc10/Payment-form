@@ -1,0 +1,47 @@
+h2,p{
+   color: blue;
+   font-weight: 100;
+}
+nav a:hover{
+    color: tomato;
+}
+.gradient-text{
+    background-image: linear-gradient(90deg, red, blue);
+    background-clip: text;
+    color: transparent;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    float: left;
+}
+nav{
+    background-color: black;
+    overflow: hidden;
+}
+    header{
+        background-color: aqua;
+      padding: 1px;
+      color: black;
+    }
+    footer{
+        background-color: black;
+        overflow: hidden;
+    }
+    div{
+        padding: 50px 0px 0px 0px;
+    }
+    footer a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        float: left;
+
+    }
+    footer a:hover{
+        color: tomato;
+    }
+       
